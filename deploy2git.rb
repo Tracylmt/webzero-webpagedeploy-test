@@ -14,6 +14,5 @@ puts `bundle exec jekyll build output_local`
 
 puts `git add .`
 puts `git commit -m "uploaded docs"`
-# puts `git remote add origin https://github.com/Tracylmt/webzero-test.git`
-puts `git remote add origin https://github.com/Tracylmt/webzero-webpagedeploy-test.git`
+
 puts `git push origin main`
