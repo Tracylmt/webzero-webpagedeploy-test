@@ -1,5 +1,5 @@
 puts `git init`
-
+puts `git remote add origin https://github.com/Tracylmt/webzero-webpagedeploy-test.git`
 puts Dir.pwd
 
 puts `cd #{Dir.pwd}/output_local/`
